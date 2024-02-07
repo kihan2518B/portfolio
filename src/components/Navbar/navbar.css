@@ -1,6 +1,6 @@
 .navbar {
     height: 4rem;
-    width: 96vw;
+    width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
     padding: 1rem 1rem;
@@ -10,6 +10,7 @@
     position: sticky;
     top: 0;
     z-index: 3;
+    background-color: rgb(65, 105, 225);
 }
 
 .logo {
