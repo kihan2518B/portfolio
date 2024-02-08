@@ -1,0 +1,72 @@
+#projects {
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.projectTitle {
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+
+.projectDisc {
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 45rem;
+}
+
+.projectImgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 65rem;
+}
+
+.projectImg {
+    object-fit: cover;
+    height: 12rem;
+    /* width: 20rem; */
+    margin: 0.5rem;
+}
+
+.projectImgHeading {
+    color: #FF7F7F;
+    text-decoration: underline #FFDAB9;
+}
+
+.projectImgHeading:hover {
+    color: #FFDAB9;
+    text-decoration: underline #FF7F7F;
+    transition: 200ms;
+}
+
+.projectBtn {
+    margin: 3rem 0;
+    padding: 0.5rem 2.5rem;
+    background-color: #FFDAB9;
+    color: black;
+    border: 2px solid #FFDAB9;
+    border-radius: 2rem;
+    font-size: 1rem;
+}
+
+.projectBtn:hover {
+    background-color: #FF7F7F;
+    color: rgb(65, 105, 225);
+    transition: 500ms;
+}
+
+@media screen and (max-width:850px) {
+    .projectImg {
+        height: 20vw;
+    }
+}
